@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: azure;
+    margin: 40px;
+}
+h2{
+    text-align: center;
+    color: azure;
+}
+table{
+    padding-left: 350px;
+}
+th{
+     color: azure;
+     padding: 30px;
+}
+input{
+    color:black;
+    border-radius: 100px;
+    height: 30px;
+    width: 260px;
+    font-size: 20px;
+    
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color:blue;
+    border-radius: 100px;
+    font-size: 25px;
+    color: azure;
+    margin-left: 340px;
+}

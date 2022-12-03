@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../HTML/img/wp3210970.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: auto 3rem;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 2rem;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+nav ul li a::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: white;
+    transition: 0.6s ease-out;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.content h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+}
+.content p{
+    margin: 0.5rem;
+    color: white;
+}
+button{
+    width: 200px;
+    margin: 1.2rem 1.5rem;
+    padding: 0.8rem 1rem;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 #009688;
+    transition: 00.6s ;
+}
+button:hover{
+    box-shadow: inset 200px 0 0 #009688;
+}
+
+.section-bg-img{
+    position: relative;
+    opacity: 0.8;
+}
+
+.section-heading{
+    position: absolute;
+    top: 780px;
+}
+.section-border{
+    border: 1px solid white;
+}
+
+.section-heading1{
+    position: absolute;
+    top: 1580px;
+}
+
+.section1{
+    margin-top: -4px;
+}
+
+.section-heading2{
+    position: absolute;
+    top: 2370px;
+}
+
+.section-heading3{
+    position: absolute;
+    top: 3180px;
+}
+
+.section-images{
+    width: 100%;
+    display: inline-flex;
+    margin: 20px 00px;
+}
+
+.section-img{
+    width: 25%;
+    padding: 6px;
+}
