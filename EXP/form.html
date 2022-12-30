@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-image: linear-gradient(TO RIGHT, rgb(107, 128, 243), rgb(255, 0, 221));
+        background-repeat: no-repeat;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .back {
+        background-color: white;
+        width: 500px;
+        height: 550px;
+        margin: auto;
+        margin-top: 120px;
+        box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+    
+    .back h2 {
+        font-size: 40px;
+        padding-top: 10%;
+        padding-left: 23%;
+    }
+    
+    .back h2 {
+        background: linear-gradient(TO LEFT, rgb(77, 103, 247), rgb(255, 0, 221));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .back .text {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    
+    .text input {}
+    
+    .back .font {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    
+    .back .button {
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+    
+    .back .button a {
+        background: linear-gradient(TO LEFT, rgb(107, 128, 243), rgb(255, 0, 221));
+        padding: 14px 110px;
+        text-decoration: none;
+        color: white;
+        font-weight: BOLDER;
+        font-size: 20PX;
+    }
+</style>
+
+<body>
+    <form method="post" action="/login">
+        <div class="back">
+
+            <h2>LOGIN FORM</h2>
+            <div class="text">
+                <label for="Username">Username</label><br><br>
+                <input type="text" name="NAME" id="nm" style="width:300px;height:40px;"><br>
+            </div>
+            <div class=" font ">
+                <label for="password ">Password</label><br><br>
+                <input type="password " name="PASSWORD"id="pass" style="width:300px;height:40px; ">
+                <div class="button ">
+                </div>
+                <br><br>
+                <div class="button">
+                    <a href="#">
+SIGN UP
+
+                    </a>
+                </div>
+            </div>
+    </form>
+
+</body>
+
+</html>
