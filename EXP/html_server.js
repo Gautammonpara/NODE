@@ -4,7 +4,7 @@ app.use(express.json());
 app.use(express.urlencoded());
 
 app.get("/login",(req,res)=>{
-    res.sendFile(__dirname + "/form.html");
+    res.sendFile(__dirname + "/index.html");
 });
 app.post("/login",(req,res)=>{
     const requst=req.body;
